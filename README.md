@@ -1,3 +1,28 @@
+# Тестовое задание на вакансию Web-developer
+____
+
+## Установка приложения
+
+- Клонируйте [репозиторий](https://github.com/ZeroXor/test-laravel-1.git).
+```shell
+git clone https://github.com/ZeroXor/test-laravel-1.git /path/to/your/project/project-name
+```
+
+- Перейдите в каталог, куда был склонирован репозиторий.
+```shell
+cd /path/to/your/project/project-name
+```
+
+- Установите фреймворк.
+```shell
+composer install
+```
+- В корне приложения создайте файл **.env** и перенесите в него информацию из **.env.example**. При необходимости отредактируйте файл **.env**, подставив свои значения переменных (например, для настройки базы данных).
+
+____
+**Данное приложение работает на фреймворке Laravel.**
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -7,31 +32,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## О Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel - это фреймворк для веб-приложений с выразительным элегантным синтаксисом. Мы считаем, что разработка должна быть приятной и творческой, чтобы приносить истинное удовлетворение. Laravel упрощает разработку, упрощая общие задачи, используемые во многих веб-проектах, например:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- [Простой и быстрый механизм маршрутизации](https://laravel.com/docs/routing).
+- [Мощный контейнер для внедрения зависимостей](https://laravel.com/docs/container).
+- Несколько бэкэндов для хранения [сеансов](https://laravel.com/docs/session) и [кеша](https://laravel.com/docs/cache).
+- Выразительная, интуитивно понятная [база данных ORM](https://laravel.com/docs/eloquent).
+- [Схемы миграций](https://laravel.com/docs/migrations), не зависящие от базы данных.
+- [Надежная обработка фоновых заданий](https://laravel.com/docs/queues).
+- [Трансляция событий в реальном времени](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Laravel является доступным и мощным фреймворком, предоставляющим инструменты, необходимые для больших и надежных приложений.
 
-## Learning Laravel
+## Изучение Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Laravel имеет самую обширную и подробную библиотеку [документации](https://laravel.com/docs) и видеоуроков из всех современных фреймворков веб-приложений, что позволяет легко начать работу с фреймворком.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Если вам не хочется читать, вам могут помочь [Ларакасты](https://laracasts.com). Ларакасты содержат более 1500 видеоуроков по различным темам, включая Laravel, современный PHP, модульное тестирование и JavaScript. Развивайте свои навыки, копаясь в нашей обширной видеотеке.
 
-## Laravel Sponsors
+## Спонсоры Laravel
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Мы хотели бы поблагодарить следующих спонсоров за финансирование разработки Laravel. Если вы хотите стать спонсором, посетите страницу [Laravel Patreon](https://patreon.com/taylorotwell).
 
-### Premium Partners
+### Премиум партнеры
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
@@ -45,18 +70,18 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
 - **[OP.GG](https://op.gg)**
 
-## Contributing
+## Содействие
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Спасибо, что решили внести свой вклад в структуру Laravel! Руководство по вкладу можно найти в [документации Laravel](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Правила поведения
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Чтобы сообщество Laravel было гостеприимным для всех, ознакомьтесь с [Правилами поведения](https://laravel.com/docs/contributions#code-of-conduct) и соблюдайте их.
 
-## Security Vulnerabilities
+## Уязвимости безопасности
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Если вы обнаружите уязвимость в системе безопасности Laravel, отправьте электронное письмо Тейлору Отвеллу (Taylor Otwell) на [taylor@laravel.com](mailto:taylor@laravel.com). Все уязвимости безопасности будут незамедлительно устранены.
 
-## License
+## Лицензия
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Фреймворк Laravel - это программное обеспечение с открытым исходным кодом под [лицензией MIT](https://opensource.org/licenses/MIT).
